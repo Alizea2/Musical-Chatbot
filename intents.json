@@ -1,0 +1,239 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you?",
+        "Hello",
+        "Good day",
+        "What's up",
+        "Hey"
+      ],
+      "responses": [
+        "Hello, {user_name}!",
+        "Good to see you again, {user_name}!",
+        "Hi there, {user_name}, how can I help?",
+        "Hey there, {user_name}",
+        "Hiya, {user_name}"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "see you",
+        "bye bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "Sad to see you go, {user_name} :(",
+        "Talk to you later, {user_name}",
+        "Goodbye, {user_name}!",
+        "Come back soon, {user_name}",
+        "Thank you, {user_name}"
+      ]
+    },
+    {
+      "tag": "music_genre",
+      "patterns": [
+        "What is your favorite music genre?",
+        "Tell me about jazz",
+        "What are the different types of music?",
+        "Can you recommend a genre?",
+        "What genre do you like?"
+      ],
+      "responses": [
+        "I love many genres, {user_name}! Some popular ones are jazz, rock, pop, and classical.",
+        "Jazz, rock, pop, and classical are some of the most loved music genres, {user_name}. What genre do you enjoy?",
+        "My favorite genres are rock and classical, {user_name}. What about you?"
+      ]
+    },
+    {
+      "tag": "artist",
+      "patterns": [
+        "Who is the most famous musician?",
+        "Tell me about Beethoven",
+        "Who is Taylor Swift?",
+        "What do you know about Mozart?",
+        "Name some famous rock artists"
+      ],
+      "responses": [
+        "Some famous musicians are Beethoven, Taylor Swift, and Mozart, {user_name}. Who's your favorite?",
+        "Beethoven and Mozart are legendary composers, {user_name}. Taylor Swift is a global pop icon. What genre do you prefer?",
+        "Taylor Swift is a famous pop and country artist, {user_name}. Beethoven is known for classical music."
+      ]
+    },
+    {
+      "tag": "album",
+      "patterns": [
+        "Tell me about 'Abbey Road' album",
+        "What album is 'Bohemian Rhapsody' from?",
+        "Who made the 'Thriller' album?",
+        "Tell me about the 'Back in Black' album",
+        "What are some famous albums?"
+      ],
+      "responses": [
+        "'Abbey Road' is one of The Beatles' most iconic albums, {user_name}. Released in 1969, it includes hits like 'Come Together'.",
+        "'Bohemian Rhapsody' is from Queen's 'A Night at the Opera', {user_name}.",
+        "'Thriller' is Michael Jackson's best-selling album, released in 1982, {user_name}.",
+        "'Back in Black' by AC/DC is a legendary rock album, {user_name}."
+      ]
+    },
+    {
+      "tag": "song",
+      "patterns": [
+        "Who sang 'Shape of You'?",
+        "Tell me about the song 'Imagine'",
+        "What is your favorite song?",
+        "Who is the artist of 'Let it Be'?",
+        "What are the lyrics to 'Rolling in the Deep'?"
+      ],
+      "responses": [
+        "'Shape of You' is sung by Ed Sheeran, {user_name}.",
+        "'Imagine' is a famous song by John Lennon, {user_name}.",
+        "'Let it Be' was performed by The Beatles, {user_name}.",
+        "'Rolling in the Deep' is a hit song by Adele, {user_name}."
+      ]
+    },
+    {
+      "tag": "music_instruments",
+      "patterns": [
+        "What instruments are used in a rock band?",
+        "Tell me about the guitar",
+        "What is the role of the piano in music?",
+        "What instruments are in an orchestra?",
+        "Can you describe the drums?"
+      ],
+      "responses": [
+        "A rock band typically has guitar, bass, drums, and vocals, {user_name}.",
+        "The guitar is a stringed instrument, commonly used in rock and pop music, {user_name}.",
+        "The piano is a keyboard instrument, often used in classical music and jazz, {user_name}.",
+        "An orchestra includes instruments like strings, woodwinds, brass, and percussion, {user_name}.",
+        "The drums provide rhythm and beat, and are essential in many music genres, {user_name}."
+      ]
+    },
+    {
+      "tag": "music_history",
+      "patterns": [
+        "When did jazz music originate?",
+        "Tell me about the history of rock music",
+        "How did hip hop start?",
+        "What is the history of classical music?",
+        "Who started country music?"
+      ],
+      "responses": [
+        "Jazz originated in the early 20th century in New Orleans, blending African rhythms with European music, {user_name}.",
+        "Rock music originated in the 1950s and was influenced by blues, country, and R&B, {user_name}.",
+        "Hip hop originated in the 1970s in the Bronx, New York, with pioneers like DJ Kool Herc, {user_name}.",
+        "Classical music spans over centuries, from the Baroque to the Romantic era, with composers like Beethoven, {user_name}.",
+        "Country music originated in the 1920s in the southern U.S., influenced by folk and western music, {user_name}."
+      ]
+    },
+    {
+      "tag": "music_recommendation",
+      "patterns": [
+        "Can you recommend some music?",
+        "What music should I listen to?",
+        "Suggest a song for me",
+        "What are some good albums to listen to?",
+        "Can you recommend some classical music?"
+      ],
+      "responses": [
+        "If you like jazz, check out Miles Davis' 'Kind of Blue', {user_name}.",
+        "For rock, you might enjoy Pink Floyd's 'The Dark Side of the Moon', {user_name}.",
+        "If you're into pop, try Taylor Swift's '1989', {user_name}.",
+        "Classical music? Beethoven's 'Symphony No. 9' is a great place to start, {user_name}."
+      ]
+    },
+    {
+      "tag": "mood_happy",
+      "patterns": ["happy", "joy", "excited", "elated", "great", "good", "awesome"],
+      "responses": [
+        "That's great to hear, {user_name}! Keep that positivity flowing!",
+        "Awesome, {user_name}! I'm so happy you're feeling great!",
+        "Yay! I'm thrilled you're feeling happy, {user_name}!"
+      ]
+    },
+    {
+      "tag": "mood_sad",
+      "patterns": ["sad", "down", "unhappy", "blue", "depressed", "gloomy"],
+      "responses": [
+        "I'm really sorry you're feeling sad, {user_name}. If you need someone to talk to, I'm here.",
+        "Oh no, {user_name}, I'm sending you some positive vibes! You'll get through this.",
+        "Hey, {user_name}, don't worry, tough times don't last forever. You've got this!"
+      ]
+    },
+    {
+      "tag": "mood_angry",
+      "patterns": ["angry", "frustrated", "mad", "irritated", "upset"],
+      "responses": [
+        "Hey, {user_name}, I can feel your frustration. Let's take a deep breath together!",
+        "I'm sorry you're upset, {user_name}. How about we try to calm down and talk about it?",
+        "Things can be frustrating, but remember, {user_name}, every storm runs out of rain."
+      ]
+    },
+    {
+      "tag": "mood_neutral",
+      "patterns": ["okay", "fine", "normal", "alright", "meh"],
+      "responses": [
+        "Got it, {user_name}. I'm here if you want to chat about anything!",
+        "Alright, {user_name}. Just let me know if you'd like to talk or need any help.",
+        "Thanks for sharing, {user_name}. Let me know if you'd like to talk more!"
+      ]
+    },
+    {
+      "tag": "music_pop",
+      "patterns": [
+        "I like pop",
+        "I enjoy pop music",
+        "Pop is my favorite genre",
+        "I love pop music"
+      ],
+      "responses": [
+        "Pop is amazing, {user_name}! Some great artists are Taylor Swift, Ed Sheeran, and Ariana Grande. What are your favorite pop songs?",
+        "Pop music is so energetic, {user_name}! Who's your favorite pop artist?"
+      ]
+    },
+    {
+      "tag": "music_jazz",
+      "patterns": [
+        "I like jazz",
+        "I enjoy jazz music",
+        "Jazz is my favorite genre",
+        "I love jazz music"
+      ],
+      "responses": [
+        "Jazz is so smooth, {user_name}! Some iconic jazz artists are Miles Davis, John Coltrane, and Ella Fitzgerald. Do you have a favorite jazz musician?",
+        "Jazz music is timeless, {user_name}. It's great to unwind with some smooth jazz tunes!"
+      ]
+    },
+    {
+      "tag": "music_classical",
+      "patterns": [
+        "I like classical",
+        "I enjoy classical music",
+        "Classical is my favorite genre",
+        "I love classical music"
+      ],
+      "responses": [
+        "Classical music is so beautiful, {user_name}. Beethoven, Mozart, and Bach are legends. Do you have a favorite classical piece?",
+        "Classical music has such depth, {user_name}. Do you prefer orchestral or piano music?"
+      ]
+    },
+    {
+      "tag": "music_rock",
+      "patterns": [
+        "I like rock",
+        "I enjoy rock music",
+        "Rock is my favorite genre",
+        "I love rock music"
+      ],
+      "responses": [
+        "Rock music is powerful, {user_name}! Some legendary rock bands are The Beatles, Queen, and Led Zeppelin. What's your favorite rock band?",
+        "Rock on, {user_name}! Some of the best rock albums include 'Abbey Road' and 'The Dark Side of the Moon'."
+      ]
+    }
+  ]
+}
